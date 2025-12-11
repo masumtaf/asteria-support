@@ -224,7 +224,7 @@ final class Base {
      * Init Admin
      */
     public function admin_init() {
-        // require $this->plugin_admin_path('class-dashboard-settings.php');
+        require $this->plugin_admin_path('dashboard-init.php');
     }
 
      	/**
